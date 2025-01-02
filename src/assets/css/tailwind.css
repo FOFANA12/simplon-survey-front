@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #C2002F;
+    --color-placeholder: #b0acac;
+    --color-bg: #f0f0f3;
+  }
+}
+
+/* Style body */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  background-color: var(--color-bg);
+}
+
+.auth-layout-container,  .custom-bg-img {
+  background-image: url('/background-simplon-pattern.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Style input focus */
+input:focus {
+  outline: var(--color-primary) !important;
+  border: 1px solid var(--color-primary) !important;
+}
+
+.no-focused-input:focus {
+  outline: none !important;
+  border-color: inherit !important;
+}
+
+::placeholder {
+  color: var(--color-placeholder) !important;
+  opacity: 1;
+}
+
+/* Style textarea focus */
+textarea:focus {
+  outline: var(--color-primary) !important;
+  border: 1px solid var(--color-primary) !important;
+}
+
+/*** Alignement */
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* Responsive text alignment */
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+
+  .text-sm-right {
+    text-align: right !important;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+
+  .text-md-right {
+    text-align: right !important;
+  }
+
+  .text-md-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-xl-left {
+    text-align: left !important;
+  }
+
+  .text-xl-right {
+    text-align: right !important;
+  }
+
+  .text-xl-center {
+    text-align: center !important;
+  }
+}

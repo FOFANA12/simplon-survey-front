@@ -1,0 +1,137 @@
+/* Table header styles */
+.vgt-table th {
+  padding: 0.5em 1em 0.5em 0.75em !important;
+  vertical-align: middle !important;
+  font-size: 0.875rem !important;
+  background-color: #f8f9fa !important;
+  border-bottom: 2px solid #dee2e6 !important;
+  color: #343a40 !important;
+}
+
+/* Footer styles */
+.vgt-wrap__footer {
+  font-size: 0.875rem !important;
+  padding: 0.5em !important;
+  background-color: #f8f9fa !important;
+  border-top: 1px solid #dee2e6 !important;
+}
+
+/* Footer navigation and row count */
+.vgt-wrap__footer .footer__row-count__label,
+.vgt-wrap__footer .footer__row-count__select,
+.vgt-wrap__footer .footer__navigation,
+.vgt-wrap__footer .footer__navigation__page-btn span,
+.vgt-wrap__footer .footer__navigation__page-info__current-entry {
+  font-size: 0.875rem !important;
+}
+
+/* Striped table rows */
+.vgt-table.striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(194, 0, 47, 0.029) !important;
+}
+
+/* Table body row styles */
+.vgt-table tbody tr {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+/* Hover effect for table rows */
+.vgt-table tbody tr:hover {
+  background-color: rgba(194, 0, 47, 0.034) !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Disabled text */
+.vgt-text-disabled {
+  color: #c2002f !important;
+  font-weight: normal;
+}
+
+/* Chevron icons in footer navigation */
+.vgt-wrap__footer .footer__navigation__page-btn .chevron.left::after {
+  border-right: 6px solid #c2002f !important;
+}
+.vgt-wrap__footer .footer__navigation__page-btn .chevron.right::after {
+  border-left: 6px solid #c2002f !important;
+}
+
+/* Row count select focus */
+.vgt-wrap__footer .footer__row-count__select:focus {
+  border-color: #c2002f !important;
+}
+
+/* Sorting indicators in table headers */
+.vgt-table thead th.sorting-asc button:after,
+.vgt-table thead th.sortable.sorting-asc:after {
+  border-bottom-color: #c2002f !important;
+}
+.vgt-table thead th.sorting-desc button:before,
+.vgt-table thead th.sortable.sorting-desc:before {
+  border-top-color: #c2002f !important;
+}
+
+/* Loading content box */
+.vgt-loading__content {
+  background-color: #fde5e9 !important;
+  color: #c2002f !important;
+}
+
+/* Polar bear theme footer row count indicator */
+.vgt-wrap.polar-bear .vgt-wrap__footer .footer__row-count::after {
+  border-top: 6px solid #c2002f !important;
+}
+
+/* Custom checkbox styles */
+.vgt-checkbox-col input[type="checkbox"] {
+  appearance: none !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  background-color: #ffffff !important;
+  border: 2px solid #d1d5db !important;
+  border-radius: 0.25rem !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s !important;
+  position: relative !important;
+}
+
+/* Checkbox checked state */
+.vgt-checkbox-col input[type="checkbox"]:checked {
+  background-color: #c2002f !important;
+  border-color: #c2002f !important;
+}
+.vgt-checkbox-col input[type="checkbox"]:checked::after {
+  content: "\2714" !important;
+  font-size: 0.75rem !important;
+  color: #ffffff !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* Checkbox hover state */
+.vgt-checkbox-col input[type="checkbox"]:hover {
+  border-color: #c2002f !important;
+  box-shadow: 0 0 5px rgba(194, 0, 47, 0.5) !important;
+}
+
+/* General background color and border adjustments */
+.vgt-wrap__footer {
+  border: none !important;
+  background: #ffffff !important;
+}
+
+.vgt-global-search {
+  background: #ffffff !important;
+}
+
+.vgt-table th.line-numbers,
+.vgt-table th.vgt-checkbox-col {
+  background: #ffffff !important;
+}
+
+.vgt-table thead th {
+  background: #f8f9fa !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}

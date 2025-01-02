@@ -1,0 +1,435 @@
+{
+  "common": {
+    "overview": "Aperçu",
+    "edit": "Modifier",
+    "errors": {
+      "serverErrorTitle": "Erreur du serveur",
+      "defaultErrorMessage": "Désolé, une erreur côté serveur s'est produite lors du traitement."
+    },
+    "form": {
+      "status": "Statut"
+    },
+    "table": {
+      "status": {
+        "title": "Statut",
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "action": "Gérer"
+    },
+    "buttons": {
+      "submit": "Soumettre",
+      "create": "Créer",
+      "save": "Enregistrer",
+      "processing": "En cours...",
+      "delete": "Supprimer"
+    },
+    "modal": {
+      "buttons": {
+        "create": "Créer",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "viewDetails": "Voir les détails",
+        "delete": "Supprimer"
+      }
+    },
+    "sweetalert": {
+      "showConfirm": {
+        "title": "Êtes-vous sûr ?",
+        "message": "Cette action est irréversible.",
+        "confirmButtonText": "Oui, supprimer",
+        "cancelButtonText": "Annuler"
+      },
+      "showConfirmValidation": {
+        "title": "Confirmation",
+        "message": "Êtes-vous sûr de vouloir continuer ?",
+        "confirmButtonText": "Confirmer",
+        "cancelButtonText": "Annuler"
+      },
+      "showErrorModal": {
+        "title": "Erreur",
+        "message": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+        "confirmButtonText": "Fermer"
+      },
+      "actions": {
+        "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+        "confirmDeleteSelected": "Êtes-vous sûr de vouloir supprimer les éléments sélectionnés ?"
+      }
+    },
+    "datatable": {
+      "pagination": {
+        "next": "Suivant",
+        "previous": "Précédent",
+        "rowsPerPage": "Lignes par page",
+        "of": "de",
+        "page": "Page",
+        "all": "Tout"
+      },
+      "selection": {
+        "selectionText": "Sélection",
+        "clearSelectionText": "Effacer la sélection"
+      },
+      "search": {
+        "placeholder": "Rechercher"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "surveys": "Gestion des sondages",
+    "companies": "Gestion des entreprises",
+    "surveyors": "Gestion des sondeurs",
+    "respondents": "Gestion des sondés",
+    "users": "Gestion des utilisateurs"
+  },
+  "notAuthorized": {
+    "title": "403 - Accès refusé",
+    "message": "Désolé, vous n'avez pas l'autorisation d'accéder à cette page.",
+    "homeButton": "Aller au tableau de bord"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! La page que vous recherchez n'existe pas.",
+    "homeButton": "Aller au tableau de bord"
+  },
+  "survey": {
+    "list": {
+      "pageTitle": "Gestion des sondages",
+      "breadTitle": "Gestion des sondages",
+      "breadActive": "Liste des sondages"
+    },
+    "creation": {
+      "pageTitle": "Gestion des sondages - Création",
+      "breadTitle": "Gestion des sondages",
+      "breadActive": "Ajout d'un nouveau sondage"
+    },
+    "modification": {
+      "pageTitle": "Gestion des sondages - Modification",
+      "breadTitle": "Gestion des sondages",
+      "breadActive": "Modification d'un sondage"
+    },
+    "overview": {
+      "pageTitle": "Gestion des sondages - Aperçu",
+      "breadTitle": "Gestion des sondages",
+      "breadActive": "Aperçu d'un sondage"
+    },
+    "btnAdd": "Nouveau sondage",
+    "btnCreate": "Créer",
+    "btnList": "Liste des sondages",
+    "btnAddSection": "Ajouter une section",
+    "form": {
+      "title": "Titre",
+      "titlePlaceholder": "Entrez le titre",
+      "description": "Description",
+      "descriptionPlaceholder": "Entrez la description",
+      "status": "Statut",
+      "statusPlaceholder": "Sélectionnez le statut",
+      "section": "Section",
+      "sectionPlaceholder": "Ajoutez une section",
+      "question": "Question",
+      "questionPlaceholder": "Ajoutez une question",
+      "type": "Type",
+      "typePlaceholder": "Sélectionnez le type de question",
+      "isRequired": "Obligatoire",
+      "isRequiredPlaceholder": "Cochez si la question est obligatoire",
+      "createdAt": "Date de création",
+      "createdAtPlaceholder": "Sélectionnez la date de création"
+    },
+    "table": {
+      "title": "Titre",
+      "status": "Statut",
+      "createdAt": "Date de création"
+    }
+  },
+  "company": {
+    "list": {
+      "pageTitle": "Gestion des entreprises",
+      "breadTitle": "Gestion des entreprises",
+      "breadActive": "Liste des entreprises"
+    },
+    "creation": {
+      "pageTitle": "Gestion des entreprises - Création",
+      "breadTitle": "Gestion des entreprises",
+      "breadActive": "Création d'une nouvelle entreprise"
+    },
+    "modification": {
+      "pageTitle": "Gestion des entreprises - Modification",
+      "breadTitle": "Gestion des entreprises",
+      "breadActive": "Modification d'une entreprise"
+    },
+    "overview": {
+      "pageTitle": "Gestion des entreprises - Aperçu",
+      "breadTitle": "Gestion des entreprises",
+      "breadActive": "Aperçu d'une entreprise"
+    },
+    "btnAdd": "Ajouter une nouvelle entreprise",
+    "btnCreate": "Créer",
+    "btnList": "Liste des entreprises",
+    "form": {
+      "name": "Nom de l'entreprise",
+      "namePlaceholder": "Entrez le nom de l'entreprise",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email de l'entreprise",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Entrez le téléphone de l'entreprise",
+      "address": "Adresse",
+      "addressPlaceholder": "Entrez l'adresse de l'entreprise",
+      "city": "Ville",
+      "cityPlaceholder": "Entrez la ville",
+      "zipCode": "Code postal",
+      "zipCodePlaceholder": "Entrez le code postal",
+      "country": "Pays",
+      "countryPlaceholder": "Entrez le pays",
+      "website": "Site web",
+      "websitePlaceholder": "Entrez le site web de l'entreprise",
+      "activity": "Activité",
+      "activityPlaceholder": "Entrez l'activité principale de l'entreprise",
+      "numberOfEmployees": "Nombre d'employés",
+      "numberOfEmployeesPlaceholder": "Entrez le nombre d'employés"
+    },
+    "table": {
+      "name": "Nom de l'entreprise",
+      "email": "Email",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "activity": "Activité"
+    }
+  },
+  "companyManager": {
+    "sections": {
+      "personalInformation": "Informations personnelles",
+      "security": "Sécurité"
+    },
+    "list": {
+      "pageTitle": "Gestion des sondeurs",
+      "breadTitle": "Gestion des sondeurs",
+      "breadActive": "Liste des sondeurs"
+    },
+    "creation": {
+      "pageTitle": "Gestion des sondeurs - Création",
+      "breadTitle": "Gestion des sondeurs",
+      "breadActive": "Enregistrement d'un nouveau sondeur"
+    },
+    "modification": {
+      "pageTitle": "Gestion des sondeurs - Modification",
+      "breadTitle": "Gestion des sondeurs",
+      "breadActive": "Modification d'un sondeur"
+    },
+    "overview": {
+      "pageTitle": "Gestion des sondeurs - Aperçu",
+      "breadTitle": "Gestion des sondeurs",
+      "breadActive": "Aperçu d'un sondeur"
+    },
+    "btnAdd": "Ajouter un sondeur",
+    "btnCreate": "Créer",
+    "btnList": "Liste des sondeurs",
+    "form": {
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Entrez le téléphone",
+      "lang": "Langue",
+      "langPlaceholder": "Choisissez la langue",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "passwordConfirmPlaceholder": "Confirmez le mot de passe",
+      "isCompanyMainContact": "Gestionnaire principal",
+      "company": "Entreprise affiliée",
+      "companyPlaceholder": "Sélectionnez l'entreprise"
+    },
+    "table": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "lang": "Langue",
+      "company": "Entreprise",
+      "isCompanyMainContact": "Gestionnaire principal",
+      "isCompanyMainContactYes": "Oui",
+      "isCompanyMainContactNo": "Non"
+    }
+  },
+  "companyResponder": {
+    "sections": {
+      "personalInformation": "Informations personnelles",
+      "security": "Sécurité"
+    },
+    "list": {
+      "pageTitle": "Gestion des sondés",
+      "breadTitle": "Gestion des sondés",
+      "breadActive": "Liste des sondés"
+    },
+    "creation": {
+      "pageTitle": "Gestion des sondés - Création",
+      "breadTitle": "Gestion des sondés",
+      "breadActive": "Enregistrement d'un nouveau sondeur"
+    },
+    "modification": {
+      "pageTitle": "Gestion des sondés - Modification",
+      "breadTitle": "Gestion des sondés",
+      "breadActive": "Modification d'un sondeur"
+    },
+    "overview": {
+      "pageTitle": "Gestion des sondés - Aperçu",
+      "breadTitle": "Gestion des sondés",
+      "breadActive": "Aperçu d'un sondeur"
+    },
+    "btnAdd": "Ajouter un sondé",
+    "btnCreate": "Créer",
+    "btnList": "Liste des sondés",
+    "form": {
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Entrez le téléphone",
+      "lang": "Langue",
+      "langPlaceholder": "Choisissez la langue",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "passwordConfirmPlaceholder": "Confirmez le mot de passe",
+      "company": "Entreprise affiliée",
+      "companyPlaceholder": "Sélectionnez l'entreprise"
+    },
+    "table": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "lang": "Langue",
+      "company": "Entreprise"
+    }
+  },
+  "user": {
+    "sections": {
+      "personalInformation": "Informations personnelles",
+      "security": "Sécurité"
+    },
+    "list": {
+      "pageTitle": "Gestion des utilisateurs",
+      "breadTitle": "Gestion des utilisateurs",
+      "breadActive": "Liste des utilisateurs"
+    },
+    "creation": {
+      "pageTitle": "Gestion des utilisateurs - Création",
+      "breadTitle": "Gestion des utilisateurs",
+      "breadActive": "Inscription d'un nouvel utilisateur"
+    },
+    "modification": {
+      "pageTitle": "Gestion des utilisateurs - Modification",
+      "breadTitle": "Gestion des utilisateurs",
+      "breadActive": "Modification d'un utilisateur"
+    },
+    "overview": {
+      "pageTitle": "Gestion des utilisateurs - Aperçu",
+      "breadTitle": "Gestion des utilisateurs",
+      "breadActive": "Aperçu d'un utilisateur"
+    },
+    "btnAdd": "Ajouter un nouveau",
+    "btnCreate": "Créer",
+    "btnList": "Liste des utilisateurs",
+    "form": {
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Entrez le téléphone",
+      "lang": "Langue",
+      "langPlaceholder": "Choisissez la langue",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "passwordConfirmPlaceholder": "Confirmez le mot de passe",
+      "role": "Rôle",
+      "rolePlaceholder": "Sélectionnez un rôle"
+    },
+    "table": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "lang": "Langue",
+      "phone": "Téléphone",
+      "role": "Rôle"
+    }
+  },
+  "login": {
+    "pageTitle": "Connexion",
+    "title": "Connectez-vous à votre compte",
+    "welcomeMessage": "Veuillez entrer vos identifiants pour accéder à votre compte.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez votre email",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "forgotPasswordLink": "Mot de passe oublié ?",
+    "submitButton": "Connexion",
+    "noAccount": "Vous n'avez pas encore de compte ?",
+    "createAccount": "Créer un compte"
+  },
+  "forgotPassword": {
+    "pageTitle": "Récupération de mot de passe",
+    "title": "Récupérez votre mot de passe",
+    "message": "Entrez votre email pour recevoir un lien de réinitialisation du mot de passe.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez votre email",
+    "submitButton": "Envoyer le lien",
+    "backToLogin": "Se connecter",
+    "enterResetCodeLink": "Entrer le code de réinitialisation"
+  },
+  "resetPassword": {
+    "pageTitle": "Réinitialisation du mot de passe",
+    "title": "Réinitialisez votre mot de passe",
+    "message": "Veuillez entrer votre nouveau mot de passe.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez votre email",
+    "newPasswordLabel": "Nouveau mot de passe",
+    "newPasswordPlaceholder": "Entrez votre nouveau mot de passe",
+    "confirmPasswordLabel": "Confirmez le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre nouveau mot de passe",
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "submitButton": "Réinitialiser le mot de passe",
+    "backToLogin": "Se connecter",
+    "forgotPasswordLink": "Mot de passe oublié ?"
+  },
+  "profile": {
+    "pageTitle": "Mon profil",
+    "breadTitle": "Mon profil",
+    "breadActive": "Mise à jour de mon profil",
+    "sections": {
+      "personalInformation": "Informations personnelles",
+      "security": "Sécurité",
+      "company": "Votre entreprise affiliée"
+    },
+    "btnSave": "Enregistrer",
+    "form": {
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Entrez l'email",
+      "lang": "Langue",
+      "langPlaceholder": "Choisissez la langue",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Entrez le téléphone",
+      "role": "Rôle",
+      "rolePlaceholder": "Sélectionnez un rôle",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "passwordConfirmPlaceholder": "Confirmez le mot de passe"
+    }
+  }
+}

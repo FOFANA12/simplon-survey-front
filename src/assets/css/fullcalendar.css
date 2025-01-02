@@ -1,0 +1,8 @@
+:root {
+  /* --fc-border-color: #fb5858;
+    --fc-button-text-color: #ff0000; */
+}
+
+.calendar-container {
+  height: calc(100vh - 165px);
+}
