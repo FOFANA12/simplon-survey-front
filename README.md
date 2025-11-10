@@ -1,7 +1,13 @@
-# RDV-FrontEnd-V0
-Ce répertoire contient tous les fichiers et code sources Frontend de l'application de gestion des rendez-vous
-# Vue 3 + Vite
+# 📊 Simplon-Survey-FrontEnd-V0
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ce dépôt contient le code source **Frontend** de l’application **Simplon Survey**, une plateforme de gestion et d’analyse d’enquêtes.  
+Développée avec **Vue 3** et **Vite**, l’interface offre une expérience utilisateur fluide, rapide et moderne pour la création, la diffusion et le suivi des enquêtes.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## ⚙️ Technologies utilisées
+
+- **Vue 3** – Framework JavaScript moderne et réactif  
+- **Vite** – Outil de build ultra-rapide pour le développement frontend  
+- **Pinia** – Gestion d’état centralisée et performante  
+- **Vue Router** – Routage et navigation SPA  
+- **Axios** – Communication HTTP avec le backend (Simplon Survey API)  
+- **i18n** – Internationalisation et gestion multilingue  
